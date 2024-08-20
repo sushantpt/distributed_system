@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\queuing\\payment.API\\promotional.Email\\promotional.Email.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\queuing\\payment.API\\payment.API\\payment.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\queuing\\payment.API\\payment.API\\payment.API.csproj",
+        "projectName": "payment.API",
+        "projectPath": "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\queuing\\payment.API\\payment.API\\payment.API.csproj",
+        "packagesPath": "C:\\Users\\stpt4\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\queuing\\payment.API\\payment.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stpt4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\root\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\root\\Contracts\\Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.2.4, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\queuing\\payment.API\\promotional.Email\\promotional.Email.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\queuing\\payment.API\\promotional.Email\\promotional.Email.csproj",
+        "projectName": "promotional.Email",
+        "projectPath": "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\queuing\\payment.API\\promotional.Email\\promotional.Email.csproj",
+        "packagesPath": "C:\\Users\\stpt4\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\queuing\\payment.API\\promotional.Email\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stpt4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\queuing\\payment.API\\payment.API\\payment.API.csproj": {
+                "projectPath": "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\queuing\\payment.API\\payment.API\\payment.API.csproj"
+              },
+              "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\root\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\root\\Contracts\\Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\root\\Contracts\\Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\root\\Contracts\\Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\root\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\stpt4\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stpt4\\OneDrive\\Desktop\\distributed system examples\\root\\Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stpt4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

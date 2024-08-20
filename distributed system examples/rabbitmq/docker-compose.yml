@@ -1,0 +1,11 @@
+version: "3.8"
+services: 
+  rabbitmq3:
+    image: rabbitmq:3.8-management-alpine
+    container_name: "rabbitmq"
+    environment: 
+      RABBITMQ_DEFAULT_USER: suser
+      RABBITMQ_DEFAULT_PASS: suser
+    ports:
+      - '5672:5672'
+      - '15672:15672'

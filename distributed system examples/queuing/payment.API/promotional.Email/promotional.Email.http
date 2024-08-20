@@ -1,0 +1,6 @@
+@promotional.Email_HostAddress = http://localhost:5234
+
+GET {{promotional.Email_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
